@@ -1,14 +1,21 @@
 {
-  "name": "server",
+  "name": "chatgpt-server",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
   "type": "module",
+  "author": "Dmitry Kolesnichenko <dmitriykol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdev163/chatgpt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev163/chatgpt.git"
+  },
+  "homepage": "https://github.com/webdev163/chatgpt#readme",
   "scripts": {
     "server": "nodemon server.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@types/node": "^18.13.0",
     "cors": "^2.8.5",

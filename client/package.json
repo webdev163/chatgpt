@@ -1,10 +1,20 @@
 {
-  "name": "client2",
+  "name": "chatgpt-client",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "Dmitry Kolesnichenko <dmitriykol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdev163/chatgpt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev163/chatgpt.git"
+  },
+  "homepage": "https://github.com/webdev163/chatgpt#readme",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
