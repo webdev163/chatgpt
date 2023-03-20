@@ -1,0 +1,23 @@
+{
+  "name": "chatgpt",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Dmitry Kolesnichenko <dmitriykol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdev163/chatgpt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev163/chatgpt.git"
+  },
+  "homepage": "https://github.com/webdev163/chatgpt#readme",
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "install-deps": "npm run install-client && npm run install-server",
+    "start-client": "npm run dev --prefix client",
+    "start-server": "npm run server --prefix server"
+  }
+}
